@@ -6,8 +6,11 @@ package groupe;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    /**
+     * Cette fonction retourne un String "Hello World !"
+     * @return String Hello World!
+     */
+    public static String hello() {
+        return "Hello World!";
     }
 }
