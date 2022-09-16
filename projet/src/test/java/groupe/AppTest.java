@@ -15,4 +15,12 @@ public class AppTest
     public void shouldAnswerWithTrue() {
         assertEquals("Hello World!",App.hello());
     }
+
+    /**
+     * VERY Rigorous Test :D
+     */
+    @Test
+    public void shouldreturn0() {
+        assertEquals(0,App.calcul(69));
+    }
 }
